@@ -7,8 +7,10 @@
 		<meta name="description" content="">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 
-		<link rel="stylesheet" href="bower_components/cocoen/dist/css/cocoen.min.css">
-		<style type="text/css">.container{position:relative;margin:auto;max-width:700px;text-align:center}</style>
+		<!-- inject:css -->
+		<link rel="stylesheet" href="css/cocoen.min.css">
+		<link rel="stylesheet" href="css/demo.min.css">
+		<!-- endinject -->
 	</head>
 	<body>
 
@@ -20,10 +22,11 @@
 			</div>
 		</div>
 
-		<script src="bower_components/cocoen/dist/js/vendor/jquery.min.js"></script>
-		<script src="bower_components/cocoen/dist/js/vendor/requestAnimationFrame.min.js"></script>
-		<script src="bower_components/cocoen/dist/js/cocoen.min.js"></script>
-
+		<!-- inject:js -->
+		<script src="js/vendor/jquery.min.js"></script>
+		<script src="js/vendor/requestAnimationFrame.min.js"></script>
+		<script src="js/cocoen.min.js"></script>
+		<!-- endinject -->
 		<script>
 			$(function(){
 				$('.cocoen').cocoen();
